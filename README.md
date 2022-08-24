@@ -15,9 +15,9 @@
 2. ESG 경영 보고서를 위한 환경데이터 데시보드 제공
 
 ## 설명
-wifi 통신이 가능한 esp32 보드를 이용하여 서버와 통신
-적외선 센서를 통해 사람의 동작을 감지하고, 센서데이터 신호를 mqtt 통신을 이용하여 서버(로컬)로 보냄
-적외선 센서에 동작이 감지되면 릴레이 센서, led on
+wifi 통신이 가능한 esp32 보드를 이용하여 서버와 통신<br>
+적외선 센서를 통해 사람의 동작을 감지하고, 센서데이터 신호를 mqtt 통신을 이용하여 서버(로컬)로 보냄<br>
+적외선 센서에 동작이 감지되면 릴레이 센서, led on --> 세척 1회 서버로 전송
 
 ## 개발 언어
 C, CMake, C++
@@ -94,7 +94,7 @@ allow_anonymous true
 <br>
 추가 후 저장</li>
 <img src="./img/mosquitto.PNG" width="450">
-<li>MQTT Broker Service 시작</li>
+<li>MQTT Broker Service 시작(작업관리자 - 서비스 - mosquitto 실행)</li>
 </ol>
 
 ## 방화벽 설정
