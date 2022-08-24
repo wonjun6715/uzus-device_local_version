@@ -71,9 +71,7 @@ code build 명령어로, build 후 flash 작업 가능 (target에 연결되어 �
 <pre>
 idf.py flash
 </pre>
-flash 명령어로, 자동 build - flash 명령어 (target 연결 및 COM Port 확인 필요)<br>
-flash 시작 후 ... 메시지가 출력되면 boot 버튼을 눌러야 flash 시작
-<br>
+flash 명령어로, 자동 build - flash 명령어 (target 연결 및 COM Port 확인 필요)
 <pre>
 idf.py monitor
 </pre>
@@ -93,8 +91,8 @@ bind_address xxx.xxx.xx.xx  (PC IP)
 allow_anonymous true 
 <br>
 추가 후 저장</li>
-<img src="./img/mosquitto.PNG" width="450">
 <li>MQTT Broker Service 시작(작업관리자 - 서비스 - mosquitto 실행)</li>
+<img src="./img/mosquitto.PNG" width="450">
 </ol>
 
 ## 방화벽 설정
