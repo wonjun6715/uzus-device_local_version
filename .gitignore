@@ -1,7 +1,7 @@
-.devcontainer
-.vscode
-build
-sdkconfig
-./img/logo.PNG
-./img/mosquitto.PNG
-./img/wifi.PNG
+device/.devcontainer
+device/.vscode
+device/build
+device/sdkconfig
+device/img/logo.PNG
+device/img/mosquitto.PNG
+device/img/wifi.PNG
