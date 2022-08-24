@@ -2,6 +2,3 @@ device/.devcontainer
 device/.vscode
 device/build
 device/sdkconfig
-device/img/logo.PNG
-device/img/mosquitto.PNG
-device/img/wifi.PNG
