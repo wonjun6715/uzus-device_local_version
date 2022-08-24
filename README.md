@@ -71,9 +71,7 @@ code build 명령어로, build 후 flash 작업 가능 (target에 연결되어 �
 <pre>
 idf.py flash
 </pre>
-flash 명령어로, 자동 build - flash 명령어 (target 연결 및 COM Port 확인 필요)<br>
-flash 시작 후 ... 메시지가 출력되면 boot 버튼을 눌러야 flash 시작
-<br>
+flash 명령어로, 자동 build - flash 명령어 (target 연결 및 COM Port 확인 필요)
 <pre>
 idf.py monitor
 </pre>
