@@ -91,8 +91,8 @@ bind_address xxx.xxx.xx.xx  (PC IP)
 allow_anonymous true 
 <br>
 추가 후 저장</li>
-<img src="./img/mosquitto.PNG" width="450">
 <li>MQTT Broker Service 시작(작업관리자 - 서비스 - mosquitto 실행)</li>
+<img src="./img/mosquitto.PNG" width="450">
 </ol>
 
 ## 방화벽 설정
