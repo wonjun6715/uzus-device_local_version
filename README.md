@@ -2,10 +2,25 @@
 
 <div align="center" style="display:flex;">
      <img src="./img/logo.PNG" width="450" alt="logo"/>
-     > 다회용기 사용을 재미로
+     
 </div>
-
+<div align="center" style="display:flex;">
+다회용기 사용을 재미로
+</div>
 <br>
+
+## UZUS 텀블러 세척기(Tumbling)
+편리한 다회용기 사용문화를 만들기 위한 텀블러 세척기 개발
+1. 편리한 텀블러 세척으로 텀블러 사용문화 형성
+2. ESG 경영 보고서를 위한 환경데이터 데시보드 제공
+
+## 설명
+wifi 통신이 가능한 esp32 보드를 이용하여 서버와 통신
+적외선 센서를 통해 사람의 동작을 감지하고, 센서데이터 신호를 mqtt 통신을 이용하여 서버(로컬)로 보냄
+적외선 센서에 동작이 감지되면 릴레이 센서, led on
+
+## 개발 언어
+C, CMake, C++
 
 ## 개발 환경 설정
 .DEVICE<br>
@@ -78,8 +93,10 @@ bind_address xxx.xxx.xx.xx  (PC IP)
 allow_anonymous true 
 <br>
 추가 후 저장</li>
+<img src="./img/mosquitto.PNG" width="450">
 <li>MQTT Broker Service 시작</li>
 </ol>
+
 ## 방화벽 설정
 #### 인바운드 규칙에 1883 포트 추가(MQTT DISCONNECT시에)
 <ol>
@@ -88,6 +105,7 @@ allow_anonymous true
  </ol>
 
  ## Wifi Setting
+ <img src="./img/wifi.jpg" width="450">
 <ol>
 <li>WiFi 검색 후 UzUs 클릭</li>
 <li>비밀번호 입력(초기 비밀번호 : 11122233344455)</li>
@@ -98,6 +116,7 @@ allow_anonymous true
 <pre>
 하위 main 폴더 내의 src 폴더의 wifi.c 파일에서 249~262번 라인 주석 필수
 </pre>
+
 
 
 
