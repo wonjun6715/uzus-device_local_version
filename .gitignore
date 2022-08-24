@@ -2,3 +2,6 @@
 .vscode
 build
 sdkconfig
+./img/logo.PNG
+./img/mosquitto.PNG
+./img/wifi.PNG
